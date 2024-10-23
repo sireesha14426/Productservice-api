@@ -2,11 +2,13 @@ package com.initialfirstpoject.productserviceapr24.dto;
 
 import com.initialfirstpoject.productserviceapr24.Models.Category;
 import com.initialfirstpoject.productserviceapr24.Models.Product;
+import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
+@Data
+@NoArgsConstructor
 public class FakestoreResponsedto {
     private Integer id;
     private String title;
